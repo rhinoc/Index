@@ -1,21 +1,29 @@
 {
-    "常用推荐": {
-        "icon": "linecons-star"
-    },
-    "搜索引擎": {
-        "icon": "linecons-search"
-    },
-    "工大深圳": {
-        "icon": "linecons-graduation-cap"
-    },
-    "关注博客": {
-        "icon": "linecons-note"
-    },
-    "应用软件": {
-        "icon": "linecons-desktop",
-        "item": {
-            "发现产品": "",
-            "应用商城": ""
-        }
+  "我最常用": {
+    "icon": "linecons-star"
+  },
+  "我是麻瓜": {
+    "icon": "linecons-user",
+    "item": {
+      "在线办公": "",
+      "闲暇消遣": "",
+      "影音资源": ""
     }
+  },
+  "我是极客": {
+    "icon": "linecons-desktop",
+    "item": {
+      "竞赛靶场": "",
+      "应用商城": "",
+      "控制台": ""
+    }
+  },
+  "我搞学术": {
+    "icon": "linecons-graduation-cap",
+    "item": {
+      "工大深圳": "",
+      "资料搜集": "",
+      "慕课网校": ""
+    }
+  }
 }

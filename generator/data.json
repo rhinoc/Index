@@ -1,402 +1,426 @@
 {
-    "常用推荐": {
-        "wikipedia": {
-            "url": "https://www.wikipedia.org/",
-            "name": "Wikipedia",
-            "disc": "全球最大的在线百科",
-            "kw": "wk",
-            "img": "wikipedia.webp"
-        },
-        "github": {
-            "url": "https://www.github.com/",
-            "name": "Github",
-            "kw": "gh",
-            "disc": "全球最大的同性交友社区",
-            "img": "github.webp"
-        },
-        "Twitter": {
-            "url": "https://twitter.com/",
-            "name": "Twitter",
-            "disc": "看看世界上的新鲜事",
-            "img": "twitter.webp"
-        },
-        "淘宝": {
-            "url": "https://taobao.com/",
-            "name": "淘宝",
-            "kw": "tb",
-            "disc": "中国最大的网络零售平台",
-            "img": "taobao.webp"
-        },
-        "豆瓣":{
-            "url":"https://movie.douban.com/",
-            "name":"豆瓣电影",
-            "kw": "db",
-            "disc": "国内最有影响力的电影社区",
-            "img": "douban.webp"
-        },
-        "知乎":{
-            "url":"https://www.zhihu.com/explore",
-            "name":"知乎",
-            "kw": "db",
-            "disc": "国内最受欢迎的知识性问答社区",
-            "img": "zhihu.webp"
-        },
-        "Medium": {
-            "url": "https://medium.com/",
-            "name": "Meduium",
-            "disc": "重新认识出版业",
-            "img": "medium.webp"
-        },
-        "百度云": {
-            "url": "https://pan.baidu.com/",
-            "name": "百度云",
-            "disc": "百度旗下网盘服务",
-            "img": "baiducloud.webp"
-        },
-        "outlook": {
-            "url": "https://outlook.live.com/owa/",
-            "name": "Outlook",
-            "disc": "微软出品的电子邮件",
-            "img": "outlook.webp"
-        },
-        "octave": {
-            "url": "https://octave-online.net/",
-            "name": "Octave Online",
-            "disc": "类MATLAB的在线IDE",
-            "img": "octave.webp"
-        },
-        "thepriatebay": {
-            "url": "https://thepiratebay.cr/",
-            "name": "The Pirate Bay",
-            "disc": "全球最大的BT种子服务器",
-            "img": "pirate.webp"
-        },
-        "代下啦": {
-            "url": "https://www.daixiala.com/",
-            "name": "代下啦",
-            "disc": "国外网盘代下服务",
-            "img": "dxl.webp"
-        },
-        "阿里云": {
-            "url": "https://home.console.aliyun.com/",
-            "name": "阿里云",
-            "disc": "全球领先的互联网应用服务提供商",
-            "img": "aliyun.webp"
-        },
-        "七牛云": {
-            "url": "https://portal.qiniu.com/",
-            "name": "七牛云",
-            "disc": "国内领先的公有云服务商",
-            "img": "qiniu.webp"
-        },
-        "学术搜索": {
-            "url": "http://scholar.chongbuluo.com/",
-            "name": "学术搜索",
-            "disc": "站在巨人的肩膀上",
-            "img": "chong.webp"
-        },
-        "快搜": {
-            "url": "http://search.chongbuluo.com/",
-            "name": "快搜",
-            "disc": "搜索快人一步",
-            "img": "chong.webp"
-        }
+  "我最常用": {
+    "百度": {
+      "url": "https://www.baidu.com/",
+      "name": "百度",
+      "kw": "bd",
+      "disc": "全球最大的中文搜索引擎",
+      "img": "baidu.webp"
     },
-    "搜索引擎": {
-        "google": {
-            "url": "https://www.google.com/",
-            "name": "Google",
-            "kw": "gg",
-            "disc": "全球最大的搜索引擎（英文优先）",
-            "img": "google.webp"
-        },
-        "谷歌": {
-            "url": "https://www.google.com.hk/",
-            "name": "Google 中文",
-            "disc": "全球最大的搜索引擎（中文优先）",
-            "img": "google.webp"
-        },
-        "百度": {
-            "url": "https://www.baidu.com/",
-            "name": "百度",
-            "kw": "bd",
-            "disc": "全球最大的中文搜索引擎",
-            "img": "baidu.webp"
-        },
-        "搜狗": {
-            "url": "https://www.sogou.com/",
-            "name": "搜狗",
-            "kw": "sg",
-            "disc": "支持微信和知乎等搜索",
-            "img": "sogou.webp"
-        },
-        "duckduckgo": {
-            "url": "https://www.DuckDuckGo.com",
-            "name": "DuckDuckGo",
-            "kw": "ddg",
-            "disc": "隐私且简洁的搜索引擎",
-            "img": "duck.webp"
-        },
-        "peekier": {
-            "url": "https://peekier.com/",
-            "name": "Peekier",
-            "disc": "自带搜索结果预览",
-            "img": "peekier.webp"
-        },
-        "webcrawler": {
-            "url": "https://www.webcrawler.com/",
-            "name": "WebCrawler",
-            "disc": "元搜索引擎",
-            "img": "webcrawler.webp"
-        },
-        "wolframalpha": {
-            "url": "https://www.wolframalpha.com/",
-            "name": "WolframAlpha",
-            "kw": "wa",
-            "disc": "知识搜索引擎",
-            "img": "wolfram.webp"
-        },
-        "fireball": {
-            "url": "https://fireball.com/",
-            "name": "Fireball",
-            "disc": "德国匿名搜索引擎",
-            "img": "fireball.svg"
-        },
-        "qwant": {
-            "url": "https://www.qwant.com/",
-            "name": "Qwant",
-            "disc": "法国隐私且中立的搜索引擎",
-            "img": "qwant.webp"
-        }
+    "google": {
+      "url": "https://www.google.com/",
+      "name": "Google",
+      "kw": "gg",
+      "disc": "全球最大的搜索引擎（英文优先）",
+      "img": "google.webp"
     },
-    "工大深圳": {
-        "哈尔滨工业大学（深圳）": {
-            "url": "http://www.hitsz.edu.cn/",
-            "name": "哈尔滨工业大学（深圳）",
-            "disc": "学校官网",
-            "img": "hitsz.webp"
-        },
-        "本科教学管理系统": {
-            "url": "http://jwts.hitsz.edu.cn/",
-            "name": "本科教学管理系统",
-            "disc": "本科生教务系统",
-            "img": "hitsz.webp"
-        },
-        "邮件系统": {
-            "url": "https://mail.hit.edu.cn/",
-            "name": "邮件系统",
-            "disc": "教育邮箱",
-            "img": "hitsz.webp"
-        },
-        "教室管理": {
-            "url": "https://sso.hitsz.edu.cn:7002/cas/login",
-            "name": "教室管理",
-            "disc": "教室综合管理系统",
-            "img": "hitsz.webp"
-        },
-        "教室占用情况": {
-            "url": "http://219.223.252.62/roomtimeline/",
-            "name": "教室占用情况",
-            "disc": "A栋教室使用情况",
-            "img": "hitsz.webp"
-        },
-        "大学城图书馆": {
-            "url": "https://lib.utsz.edu.cn/",
-            "name": "大学城图书馆",
-            "disc": "深圳市科技图书馆",
-            "img": "lib.webp"
-        },
-        "网络准入认证系统": {
-            "url": "http://10.248.98.2/",
-            "name": "网络准入认证系统",
-            "disc": "网络服务",
-            "img": "network.webp"
-        },
-        "网络系统自助服务": {
-            "url": "http://10.248.98.2:8800/",
-            "name": "网络系统自助服务",
-            "disc": "网络系统后台管理",
-            "img": "networkm.webp"
-        },
-        "学堂在线": {
-            "url": "http://hitszv2.xuetangx.com/#/",
-            "name": "哈尔滨工业大学深圳慕课平台",
-            "disc": "基于学堂在线的慕课平台",
-            "img": "xuetangx.webp"
-        },
-        "智慧树": {
-            "url": "https://www.zhihuishu.com/",
-            "name": "智慧树",
-            "disc": "在线慕课平台",
-            "img": "zhs.webp"
-        },
-        "好大学在线": {
-            "url": "https://www.cnmooc.org/",
-            "name": "好大学在线",
-            "disc": "在线慕课平台",
-            "img": "hdx.webp"
-        },
-        "中国大学Mooc": {
-            "url": "https://www.webpurse163.org/",
-            "name": "中国大学Mooc",
-            "disc": "在线慕课平台",
-            "img": "icourse.webp"
-        },
-        "HTerHub": {
-            "url": "http://hitctf.tk/",
-            "name": "H1TerHub",
-            "disc": "网络安全社团CTF靶场",
-            "img": "hitctf.webp"
-        }
+    "outlook": {
+      "url": "https://outlook.live.com/owa/",
+      "name": "Outlook",
+      "disc": "微软出品的电子邮箱",
+      "img": "outlook.webp"
     },
-    "发现产品": {
-        "小众软件": {
-            "url": "https://www.appinn.com/",
-            "name": "小众软件",
-            "disc": "发现分享实用有趣的软件",
-            "img": "appinn.webp"
-        },
-        "反斗软件": {
-            "url": "http://www.apprcn.com/",
-            "name": "反斗软件",
-            "disc": "发现新奇有趣的软件",
-            "img": "fandou.webp"
-        },
-        "少数派": {
-            "url": "https://sspai.com/",
-            "name": "少数派",
-            "disc": "高效工作，品质生活",
-            "img": "sspai.webp"
-        },
-        "数字尾巴": {
-            "url": "http://www.dgtle.com",
-            "name": "数字尾巴",
-            "disc": "分享美好数字生活",
-            "img": "dgtle.webp"
-        },
-        "howtogeek":{
-            "url":"https://www.howtogeek.com/",
-            "name":"How-To Geek",
-            "disc":"国外在线科技媒体",
-            "img":"htg.webp"
-        },
-        "异次元软件世界": {
-            "url": "https://www.iplaysoft.com/",
-            "name": "异次元软件世界",
-            "disc": "发掘优秀应用APP",
-            "img": "iplaysoft.webp"
-        },
-        "重灌狂人": {
-            "url": "https://briian.com/",
-            "name": "重灌狂人",
-            "disc": "台湾软件应用推荐博客",
-            "img": "briian.webp"
-        },
-        "免費資源網路社群": {
-            "url": "https://free.com.tw/",
-            "name": "免費資源網路社群",
-            "disc": "台湾信息资讯博客",
-            "img": "free.webp"
-        },
-        "利器": {
-            "url": "http://liqi.io/",
-            "name": "利器",
-            "disc": "创造者和他们的工具",
-            "img": "liqi.webp"
-        },
-        "next": {
-            "url": "http://next.36kr.com/",
-            "name": "NEXT",
-            "disc": "36氪旗下的产品发现社区",
-            "img": "next.webp"
-        },
-        "producthunt": {
-            "url": "https://www.producthunt.com/",
-            "name": "ProductHunt",
-            "disc": "国外的产品发现社区",
-            "img": "producthunt.webp"
-        },
-        "最美应用": {
-            "url": "http://zuimeia.com",
-            "name": "最美应用",
-            "disc": "发现好用好看好玩的应用",
-            "img": "zuimei.webp"
-        }
+    "qqmail": {
+      "url": "https://mail.qq.com/",
+      "name": "QQ邮箱",
+      "disc": "你的第一个电子邮箱",
+      "img": "qqmail.jpg"
     },
-    "应用商城": {
-        "Google Play": {
-            "url": "https://play.google.com/store/apps",
-            "name": "Google Play",
-            "disc": "Google 应用市场",
-            "img": "googleplay.webp"
-        },
-        "Microsoft Store": {
-            "url": "https://www.microsoft.com/en-us/store/apps/windows",
-            "name": "Microsoft Store",
-            "disc": "微软 UWP 应用商城",
-            "img": "microsoft.webp"
-        },
-        "fnd": {
-            "url": "https://fnd.io/#/cn/search?mediaType=all&term=",
-            "name": "fnd",
-            "disc": "iOS/macOS 应用搜索",
-            "img": "fnd.webp"
-        },
-        "Firefox Add-ons": {
-            "url": "https://addons.mozilla.org",
-            "name": "Firefox Add-ons",
-            "disc": "Firefox 附加组件",
-            "img": "firefox.webp"
-        },
-        "Chrome Web Store": {
-            "url": "https://chrome.google.com/webstore/category/extensions",
-            "name": "Chrome Web Store",
-            "disc": "Chrome 网上应用商店",
-            "img": "chrome.webp"
-        },
-        "AlternativeTo": {
-            "url": "https://alternativeto.net/",
-            "name": "AlternativeTo",
-            "disc": "软件替代方案搜索",
-            "img": "alternativeto.webp"
-        }
+    "百度云": {
+      "url": "https://pan.baidu.com/",
+      "name": "百度云",
+      "disc": "百度旗下网盘服务",
+      "img": "baiducloud.webp"
     },
-    "关注博客":{
-        "Roc Zhang's Blog": {
-            "url": "https://www.roczhang.com/",
-            "name": "Roc Zhang's Blog",
-            "disc": "Mr.Weather和Adonis的开发者",
-            "img": "roczhang.webp"
-        },
-        "吴川斌的博客": {
-            "url": "http://www.mr-wu.cn/",
-            "name": "吴川斌的博客",
-            "disc": "专注硬件的创客自媒体",
-            "img": "wcb.webp"
-        },
-        "罗磊的独立博客": {
-            "url": "https://luolei.org/",
-            "name": "罗磊的独立博客",
-            "disc": "在每一个美好的思想前停留",
-            "img": "luolei.webp"
-        },
-        "Ming's Blog": {
-            "url": "https://bitmingw.com/",
-            "name": "Ming's Blog",
-            "disc": "程序员的成长之路",
-            "img": "ming.webp"
-        },
-        "苏洋博客":{
-            "url":"https://soulteary.com/",
-            "name":"苏洋博客",
-            "disc":"前新浪美团阿里员工",
-            "img":"soulteary.webp"
-        },
-        "奔跑中的奶酪":{
-            "url": "https://www.runningcheese.com/",
-            "name": "奔跑中的奶酪",
-            "disc": "有智，有趣，有爱",
-            "img": "cheese.webp"
-        }
+    "speedtest": {
+      "url": "http://www.speedtest.net/zh-Hans",
+      "name": "SpeedTest",
+      "disc": "网络在线测速",
+      "img": "speedtest.webp"
     }
+  },
+  "在线办公": {
+    "腾讯文档": {
+      "url": "https://docs.qq.com/desktop/",
+      "name": "腾讯文档",
+      "disc": "腾讯文档，记你所想",
+      "img": "qqdocs.jpg"
+    },
+    "腾讯问卷": {
+      "url": "https://wj.qq.com/",
+      "name": "腾讯问卷",
+      "disc": "腾讯出品的问卷调查系统",
+      "img": "qqwj.png"
+    },
+    "notion": {
+      "url": "https://www.notion.so/",
+      "name": "Notion",
+      "disc": "来自未来的笔记协作工具",
+      "img": "notion.webp"
+    },
+     "ZhiMap": {
+      "url": "https://zhimap.com/",
+      "name": "ZhiMap",
+      "disc": "在线思维导图",
+      "img": "zhimap.jpg"
+    }
+  },
+  "闲暇消遣": {
+    "豆瓣电影": {
+      "url": "https://movie.douban.com/",
+      "name": "豆瓣电影",
+      "kw": "db",
+      "disc": "国内最有影响力的电影社区",
+      "img": "douban.webp"
+    },
+    "Bilibili": {
+      "url": "https://www.bilibili.com/",
+      "name": "哔哩哔哩",
+      "disc": "年轻人的又一所大学",
+      "img": "bilibili.jpg"
+    },
+    "知乎": {
+      "url": "https://www.zhihu.com/explore",
+      "name": "知乎",
+      "kw": "db",
+      "disc": "国内最受欢迎的知识性问答社区",
+      "img": "zhihu.webp"
+    },
+    "淘宝": {
+      "url": "https://taobao.com/",
+      "name": "淘宝",
+      "kw": "tb",
+      "disc": "中国最大的网络零售平台",
+      "img": "taobao.webp"
+    }
+  },
+  "影音资源": {
+    "thepriatebay": {
+      "url": "https://thepiratebay.cr/",
+      "name": "The Pirate Bay",
+      "disc": "全球最大的BT种子服务器",
+      "img": "pirate.webp"
+    },
+    "人人影视": {
+      "url": "http://www.rrys2019.com/",
+      "name": "人人影视",
+      "disc": "陪伴童年的字幕组",
+      "img": "renren.jpg"
+    },
+    "韩剧TV": {
+      "url": "https://www.hanjutv.com/",
+      "name": "韩剧TV",
+      "disc": "老夫的少女心",
+      "img": "hjtv.jpg"
+    },
+    "NOVIPNOAD": {
+      "url": "https://www.novipnoad.com/",
+      "name": "NOVIPNOAD",
+      "disc": "不负追剧好时光",
+      "img": "no.jpg"
+    },
+    "韩饭网": {
+      "url": "https://www.hanfan.cc/",
+      "name": "韩饭网",
+      "disc": "韩国综艺、韩剧、娱乐新闻",
+      "img": "fans.png"
+    },
+    "枫林网": {
+      "url": "http://8maple.ru/",
+      "name": "枫林网",
+      "disc": "韩国综艺、韩剧、娱乐新闻",
+      "img": "maple.png"
+    }
+  },
+  "控制台": {
+    "阿里云": {
+      "url": "https://home.console.aliyun.com/",
+      "name": "阿里云",
+      "disc": "全球领先的互联网应用服务提供商",
+      "img": "aliyun.webp"
+    },
+    "腾讯云": {
+      "url": "https://cloud.tencent.com/",
+      "name": "腾讯云",
+      "disc": "为企业和开发者提供安全稳定的云计算服务",
+      "img": "tencentcloud.jpg"
+    },
+    "七牛云": {
+      "url": "https://portal.qiniu.com/",
+      "name": "七牛云",
+      "disc": "国内领先的公有云服务商",
+      "img": "qiniu.webp"
+    },
+    "网易见外": {
+      "url": "https://jianwai.netease.com/",
+      "name": "网易见外",
+      "disc": "网易见外工作台",
+      "img": "jianwai.png"
+    },
+    "百度智能云": {
+      "url": "https://cloud.baidu.com/",
+      "name": "百度智能云",
+      "disc": "百度云计算智能平台",
+      "img": "baiduzny.jpg"
+    },
+    "有道智云": {
+      "url": "https://ai.youdao.com/index.s",
+      "name": "有道智云",
+      "disc": "国内领先的公有云服务商",
+      "img": "aiyd.png"
+    },
+    "百度翻译开放平台": {
+      "url": "http://api.fanyi.baidu.com/api/trans/product/desktop",
+      "name": "百度翻译开放平台",
+      "disc": "百度翻译API控制台",
+      "img": "aibd.png"
+    }
+  },
+  "竞赛靶场": {
+    "github": {
+      "url": "https://www.github.com/",
+      "name": "Github",
+      "kw": "gh",
+      "disc": "全球最大的同性交友社区",
+      "img": "github.webp"
+    },
+    "leetcode": {
+      "url": "https://leetcode-cn.com/",
+      "name": "力扣",
+      "disc": "Leetcode中国",
+      "img": "leetcode.jpg"
+    },
+    "kaggle": {
+      "url": "https://www.kaggle.com/",
+      "name": "Kaggle",
+      "disc": "数据挖掘竞赛平台",
+      "img": "kaggle.png"
+    }
+  },
+  "搜索引擎": {
+    "google": {
+      "url": "https://www.google.com/",
+      "name": "Google",
+      "kw": "gg",
+      "disc": "全球最大的搜索引擎（英文优先）",
+      "img": "google.webp"
+    },
+    "谷歌": {
+      "url": "https://www.google.com.hk/",
+      "name": "Google 中文",
+      "disc": "全球最大的搜索引擎（中文优先）",
+      "img": "google.webp"
+    },
+    "百度": {
+      "url": "https://www.baidu.com/",
+      "name": "百度",
+      "kw": "bd",
+      "disc": "全球最大的中文搜索引擎",
+      "img": "baidu.webp"
+    },
+    "搜狗": {
+      "url": "https://www.sogou.com/",
+      "name": "搜狗",
+      "kw": "sg",
+      "disc": "支持微信和知乎等搜索",
+      "img": "sogou.webp"
+    },
+    "duckduckgo": {
+      "url": "https://www.DuckDuckGo.com",
+      "name": "DuckDuckGo",
+      "kw": "ddg",
+      "disc": "隐私且简洁的搜索引擎",
+      "img": "duck.webp"
+    },
+    "webcrawler": {
+      "url": "https://www.webcrawler.com/",
+      "name": "WebCrawler",
+      "disc": "元搜索引擎",
+      "img": "webcrawler.webp"
+    },
+    "wolframalpha": {
+      "url": "https://www.wolframalpha.com/",
+      "name": "WolframAlpha",
+      "kw": "wa",
+      "disc": "知识搜索引擎",
+      "img": "wolfram.webp"
+    },
+    "fireball": {
+      "url": "https://fireball.com/",
+      "name": "Fireball",
+      "disc": "德国匿名搜索引擎",
+      "img": "fireball.svg"
+    }
+  },
+  "应用商城": {
+    "Google Play": {
+      "url": "https://play.google.com/store/apps",
+      "name": "Google Play",
+      "disc": "Google 应用市场",
+      "img": "googleplay.webp"
+    },
+    "Microsoft Store": {
+      "url": "https://www.microsoft.com/en-us/store/apps/windows",
+      "name": "Microsoft Store",
+      "disc": "微软 UWP 应用商城",
+      "img": "microsoft.webp"
+    },
+    "fnd": {
+      "url": "https://fnd.io/#/cn/search?mediaType=all&term=",
+      "name": "fnd",
+      "disc": "iOS/macOS 应用搜索",
+      "img": "fnd.webp"
+    },
+    "Firefox Add-ons": {
+      "url": "https://addons.mozilla.org",
+      "name": "Firefox Add-ons",
+      "disc": "Firefox 附加组件",
+      "img": "firefox.webp"
+    },
+    "Chrome Web Store": {
+      "url": "https://chrome.google.com/webstore/category/extensions",
+      "name": "Chrome Web Store",
+      "disc": "Chrome 网上应用商店",
+      "img": "chrome.webp"
+    },
+    "qimai": {
+      "url": "https://www.qimai.cn/",
+      "name": "七麦数据",
+      "disc": "APP榜单、ASO、ASM",
+      "img": "qimai.jpg"
+    }
+  },
+  "工大深圳": {
+    "哈尔滨工业大学（深圳）": {
+      "url": "http://www.hitsz.edu.cn/",
+      "name": "哈尔滨工业大学（深圳）",
+      "disc": "学校官网",
+      "img": "hitsz.webp"
+    },
+    "本科教学管理系统": {
+      "url": "http://jwts.hitsz.edu.cn/",
+      "name": "本科教学管理系统",
+      "disc": "本科生教务系统",
+      "img": "hitsz.webp"
+    },
+    "本科教学管理系统（VPN）": {
+      "url": "https://vpn.hitsz.edu.cn/web/1/http/0/jwts.hitsz.edu.cn:8080",
+      "name": "本科教学管理系统（VPN）",
+      "disc": "本科教学管理系统（校外使用）",
+      "img": "hitsz.webp"
+    },
+    "财务查询系统（VPN）": {
+      "url": "https://vpn.hitsz.edu.cn/web/1/http/0/10.249.0.13/WFManager/login.jsp",
+      "name": "财务查询系统（VPN）",
+      "disc": "财务查询系统（校外使用）",
+      "img": "hitsz.webp"
+    },
+    "邮件系统": {
+      "url": "https://mail.hit.edu.cn/",
+      "name": "邮件系统",
+      "disc": "教育邮箱",
+      "img": "hitsz.webp"
+    },
+    "教室管理": {
+      "url": "https://sso.hitsz.edu.cn:7002/cas/login",
+      "name": "教室管理",
+      "disc": "教室综合管理系统",
+      "img": "hitsz.webp"
+    },
+    "大学城图书馆": {
+      "url": "https://lib.utsz.edu.cn/",
+      "name": "大学城图书馆",
+      "disc": "深圳市科技图书馆",
+      "img": "lib.webp"
+    },
+    "网络准入认证系统": {
+      "url": "http://10.248.98.2/",
+      "name": "网络准入认证系统",
+      "disc": "网络服务",
+      "img": "network.webp"
+    },
+    "网络系统自助服务": {
+      "url": "http://10.248.98.2:8800/",
+      "name": "网络系统自助服务",
+      "disc": "网络系统后台管理",
+      "img": "networkm.webp"
+    },
+    "学堂在线": {
+      "url": "http://hitszv2.xuetangx.com/#/",
+      "name": "哈尔滨工业大学深圳慕课平台",
+      "disc": "基于学堂在线的慕课平台",
+      "img": "xuetangx.webp"
+    },
+    "智慧树": {
+      "url": "https://www.zhihuishu.com/",
+      "name": "智慧树",
+      "disc": "在线慕课平台",
+      "img": "zhs.webp"
+    },
+    "好大学在线": {
+      "url": "https://www.cnmooc.org/",
+      "name": "好大学在线",
+      "disc": "在线慕课平台",
+      "img": "hdx.webp"
+    },
+    "中国大学Mooc": {
+      "url": "https://www.webpurse163.org/",
+      "name": "中国大学Mooc",
+      "disc": "在线慕课平台",
+      "img": "icourse.webp"
+    },
+    "H1TerHub": {
+      "url": "http://hitctf.tk/",
+      "name": "H1TerHub",
+      "disc": "网络安全社团CTF靶场",
+      "img": "hitctf.webp"
+    }
+  },
+  "资料搜集": {
+    "wikipedia": {
+      "url": "https://www.wikipedia.org/",
+      "name": "Wikipedia",
+      "disc": "全球最大的在线百科",
+      "kw": "wk",
+      "img": "wikipedia.webp"
+    },
+    "学术搜索": {
+      "url": "http://scholar.chongbuluo.com/",
+      "name": "学术搜索",
+      "disc": "站在巨人的肩膀上",
+      "img": "chong.webp"
+    },
+    "文库下载": {
+      "url": "http://www.wenkuwenku.com/",
+      "name": "文库下载",
+      "disc": "文库自助下载系统",
+      "img": "wenku.jpg"
+    }
+  },
+  "慕课网校": {
+    "udacity": {
+      "url": "https://www.udacity.com/",
+      "name": "Udacity",
+      "disc": "传授硅谷的名企官方课程",
+      "img": "udacity.jpg"
+    },
+    "coursera": {
+      "url": "http://coursera.org/",
+      "name": "Coursera",
+      "disc": "只需 4–6 周即可学习一项新技能",
+      "img": "coursera.jpg"
+    },
+    "edX": {
+      "url": "https://www.edx.org/",
+      "name": "edX",
+      "disc": "哈佛大学和MIT共同创立的非营利网络教育项目",
+      "img": "edx.jpg"
+    },
+    "khan": {
+      "url": "https://www.khanacademy.org/",
+      "name": "Khan Academy",
+      "disc": "免费在线课程",
+      "img": "khan.jpg"
+    }
+  }
 }

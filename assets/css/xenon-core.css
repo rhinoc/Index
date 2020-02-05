@@ -240,20 +240,24 @@
     .cbp_tmtimeline:before {
         display: none
     }
+
     .cbp_tmtimeline>li .cbp_tmtime {
         width: 100%;
         position: relative;
         padding: 0 0 20px 0
     }
+
     .cbp_tmtimeline>li .cbp_tmtime span {
         text-align: left
     }
+
     .cbp_tmtimeline>li .cbp_tmlabel {
         margin: 0 0 30px 0;
         padding: 1em;
         font-weight: 400;
         font-size: 95%
     }
+
     .cbp_tmtimeline>li .cbp_tmlabel:after {
         right: auto;
         left: 20px;
@@ -261,10 +265,12 @@
         border-bottom-color: #3594cb;
         top: -20px
     }
+
     .cbp_tmtimeline>li:nth-child(odd) .cbp_tmlabel:after {
         border-right-color: transparent;
         border-bottom-color: #6cbfee
     }
+
     .cbp_tmtimeline>li .cbp_tmicon {
         position: relative;
         float: right;
@@ -470,12 +476,14 @@
 }
 
 @media screen and (min-width:480px) {
+
     .lt-ie9.mq.js .table-responsive[data-pattern=priority-columns] th[data-priority="2"],
     .lt-ie9.mq.js.lt-ie10 .sticky-table-header th[data-priority="2"],
     .lt-ie9.mq.js .table-responsive[data-pattern=priority-columns] td[data-priority="2"],
     .lt-ie9.mq.js.lt-ie10 .sticky-table-header td[data-priority="2"] {
         display: inline
     }
+
     .mq.js .table-responsive[data-pattern=priority-columns] th[data-priority="2"],
     .mq.js.lt-ie10 .sticky-table-header th[data-priority="2"],
     .mq.js .table-responsive[data-pattern=priority-columns] td[data-priority="2"],
@@ -485,12 +493,14 @@
 }
 
 @media screen and (min-width:640px) {
+
     .lt-ie9.mq.js .table-responsive[data-pattern=priority-columns] th[data-priority="3"],
     .lt-ie9.mq.js.lt-ie10 .sticky-table-header th[data-priority="3"],
     .lt-ie9.mq.js .table-responsive[data-pattern=priority-columns] td[data-priority="3"],
     .lt-ie9.mq.js.lt-ie10 .sticky-table-header td[data-priority="3"] {
         display: inline
     }
+
     .mq.js .table-responsive[data-pattern=priority-columns] th[data-priority="3"],
     .mq.js.lt-ie10 .sticky-table-header th[data-priority="3"],
     .mq.js .table-responsive[data-pattern=priority-columns] td[data-priority="3"],
@@ -500,12 +510,14 @@
 }
 
 @media screen and (min-width:800px) {
+
     .lt-ie9.mq.js .table-responsive[data-pattern=priority-columns] th[data-priority="4"],
     .lt-ie9.mq.js.lt-ie10 .sticky-table-header th[data-priority="4"],
     .lt-ie9.mq.js .table-responsive[data-pattern=priority-columns] td[data-priority="4"],
     .lt-ie9.mq.js.lt-ie10 .sticky-table-header td[data-priority="4"] {
         display: inline
     }
+
     .mq.js .table-responsive[data-pattern=priority-columns] th[data-priority="4"],
     .mq.js.lt-ie10 .sticky-table-header th[data-priority="4"],
     .mq.js .table-responsive[data-pattern=priority-columns] td[data-priority="4"],
@@ -515,12 +527,14 @@
 }
 
 @media screen and (min-width:960px) {
+
     .lt-ie9.mq.js .table-responsive[data-pattern=priority-columns] th[data-priority="5"],
     .lt-ie9.mq.js.lt-ie10 .sticky-table-header th[data-priority="5"],
     .lt-ie9.mq.js .table-responsive[data-pattern=priority-columns] td[data-priority="5"],
     .lt-ie9.mq.js.lt-ie10 .sticky-table-header td[data-priority="5"] {
         display: inline
     }
+
     .mq.js .table-responsive[data-pattern=priority-columns] th[data-priority="5"],
     .mq.js.lt-ie10 .sticky-table-header th[data-priority="5"],
     .mq.js .table-responsive[data-pattern=priority-columns] td[data-priority="5"],
@@ -530,12 +544,14 @@
 }
 
 @media screen and (min-width:1120px) {
+
     .lt-ie9.mq.js .table-responsive[data-pattern=priority-columns] th[data-priority="6"],
     .lt-ie9.mq.js.lt-ie10 .sticky-table-header th[data-priority="6"],
     .lt-ie9.mq.js .table-responsive[data-pattern=priority-columns] td[data-priority="6"],
     .lt-ie9.mq.js.lt-ie10 .sticky-table-header td[data-priority="6"] {
         display: inline
     }
+
     .mq.js .table-responsive[data-pattern=priority-columns] th[data-priority="6"],
     .mq.js.lt-ie10 .sticky-table-header th[data-priority="6"],
     .mq.js .table-responsive[data-pattern=priority-columns] td[data-priority="6"],
@@ -584,12 +600,12 @@ table td.col-show {
 
 .lt-ie9 table.display-all th,
 .lt-ie9 table.display-all td {
-    display: inline!important
+    display: inline !important
 }
 
 table.display-all th,
 table.display-all td {
-    display: table-cell!important
+    display: table-cell !important
 }
 
 .sticky-table-header {
@@ -746,7 +762,7 @@ body {
 }
 
 a {
-    outline: 0!important
+    outline: 0 !important
 }
 
 p {
@@ -766,7 +782,7 @@ body {
 }
 
 .boxed-container #chat .chat-inner {
-    position: absolute!important
+    position: absolute !important
 }
 
 .page-container {
@@ -870,6 +886,7 @@ body {
     .page-container .main-content .page-title .title-env .title {
         font-size: 23px
     }
+
     .page-container .main-content .page-title .title-env .title+p {
         font-size: 12px
     }
@@ -909,6 +926,7 @@ body {
     .page-container .main-content .page-title .breadcrumb-env .breadcrumb {
         margin-top: 4px
     }
+
     .page-container .main-content .page-title .breadcrumb-env .breadcrumb li a {
         font-size: 12px
     }
@@ -1206,67 +1224,85 @@ body {
         z-index: 10;
         overflow: visible
     }
+
     .sidebar-menu.collapsed .hidden-collapsed {
-        display: none!important
+        display: none !important
     }
+
     .sidebar-menu.collapsed+.main-content .user-info-navbar .user-info-menu a[data-toggle=sidebar] {
         color: #606161
     }
+
     .sidebar-menu.collapsed+.main-content .main-footer {
         left: 80px
     }
+
     .sidebar-menu.collapsed .sidebar-menu-inner {
         overflow: visible;
-        position: relative
+        position: fixed
     }
+
     .sidebar-menu.collapsed .logo-env {
         padding: 18px 0
     }
+
     .sidebar-menu.collapsed .logo-env .logo-collapsed {
         display: block;
         text-align: center
     }
+
     .sidebar-menu.collapsed .logo-env .logo-collapsed img {
         display: inline-block
     }
+
     .sidebar-menu.collapsed .logo-env .logo-expanded,
     .sidebar-menu.collapsed .logo-env .settings-icon {
         display: none
     }
+
     .sidebar-menu.collapsed .logo-env .logo {
         float: none
     }
+
     .sidebar-menu.collapsed .main-menu {
         padding-left: 0;
         padding-right: 0
     }
+
     .sidebar-menu.collapsed .main-menu>li {
         text-align: center;
         position: relative
     }
+
     .sidebar-menu.collapsed .main-menu>li.active,
     .sidebar-menu.collapsed .main-menu>li li.active {
         background-color: #252627
     }
+
     .sidebar-menu.collapsed .main-menu>li>a>i {
         margin-right: 0;
         font-size: 16px
     }
+
     .sidebar-menu.collapsed .main-menu>li>a>span {
         display: none
     }
+
     .sidebar-menu.collapsed .main-menu>li>a>span.label {
         display: block;
         position: absolute;
         right: 0;
         top: 0
     }
+
     .sidebar-menu.collapsed .main-menu>li.has-sub>a:before {
         display: none
     }
+
     .sidebar-menu.collapsed .main-menu>li.opened>ul {
         display: none
     }
+
     .sidebar-menu.collapsed .main-menu>li>ul {
         position: absolute;
         background: #2c2e2f;
@@ -1275,28 +1311,36 @@ body {
         left: 100%;
         text-align: left
     }
+
     .page-body.right-sidebar .sidebar-menu.collapsed .main-menu>li>ul {
         left: auto;
         right: 100%
     }
+
     .sidebar-menu.collapsed .main-menu>li>ul>li>a {
         padding-left: 20px
     }
+
     .sidebar-menu.collapsed .main-menu>li>ul>li>ul>li>a {
         padding-left: 35px
     }
+
     .sidebar-menu.collapsed .main-menu>li>ul>li>ul>li>ul>li>a {
         padding-left: 50px
     }
+
     .sidebar-menu.collapsed .main-menu>li>ul>li>ul>li>ul>li>ul>li>a {
         padding-left: 65px
     }
+
     .sidebar-menu.collapsed .main-menu>li>ul>li>ul>li>ul>li>ul>li>ul>li>a {
         padding-left: 80px
     }
+
     .sidebar-menu.collapsed .main-menu>li>ul li.has-sub>a:before {
         margin-right: 10px
     }
+
     .sidebar-menu.collapsed .main-menu>li:hover>ul {
         display: block
     }
@@ -1351,7 +1395,7 @@ body {
 }
 
 .settings-pane-open .navbar.horizontal-menu.navbar-minimal+.page-container {
-    margin-top: 0!important
+    margin-top: 0 !important
 }
 
 .navbar.horizontal-menu+.page-container>.sidebar-menu.fixed .sidebar-menu-inner {
@@ -1422,6 +1466,7 @@ body {
         padding: 0;
         margin: 0
     }
+
     .navbar.horizontal-menu .navbar-inner .navbar-nav.click-to-expand .has-sub:hover>a:before {
         -webkit-transform: rotate(0deg);
         -moz-transform: rotate(0deg);
@@ -1429,6 +1474,7 @@ body {
         -ms-transform: rotate(0deg);
         transform: rotate(0deg)
     }
+
     .navbar.horizontal-menu .navbar-inner .navbar-nav.click-to-expand .has-sub.expanded>a:before {
         -webkit-transform: rotate(90deg);
         -moz-transform: rotate(90deg);
@@ -1436,6 +1482,7 @@ body {
         -ms-transform: rotate(90deg);
         transform: rotate(90deg)
     }
+
     .navbar.horizontal-menu .navbar-inner .navbar-nav a {
         position: relative;
         display: inline-block;
@@ -1443,23 +1490,29 @@ body {
         color: #7d7f7f;
         z-index: 1
     }
+
     .navbar.horizontal-menu .navbar-inner .navbar-nav a>i {
         display: inline-block;
         margin-right: 5px
     }
+
     .navbar.horizontal-menu .navbar-inner .navbar-nav a>.label.pull-right {
         margin-top: 0
     }
+
     .navbar.horizontal-menu .navbar-inner .navbar-nav a>.title {
         display: inline-block
     }
+
     .navbar.horizontal-menu .navbar-inner .navbar-nav a>.title+.badge {
         margin-left: 7px
     }
+
     .navbar.horizontal-menu .navbar-inner .navbar-nav li:hover>a,
     .navbar.horizontal-menu .navbar-inner .navbar-nav li.active>a {
         color: #313232
     }
+
     .navbar.horizontal-menu .navbar-inner .navbar-nav>li {
         position: relative;
         z-index: 1;
@@ -1468,24 +1521,30 @@ body {
         border-top: 0;
         border-bottom: 0
     }
+
     .navbar.horizontal-menu .navbar-inner .navbar-nav>li:hover {
         z-index: 2
     }
+
     .navbar.horizontal-menu .navbar-inner .navbar-nav>li.active,
     .navbar.horizontal-menu .navbar-inner .navbar-nav>li:hover {
         border-color: #f3f3f3;
         background-color: #fafafa
     }
+
     .navbar.horizontal-menu .navbar-inner .navbar-nav>li.active {
         margin-left: -1px
     }
+
     .navbar.horizontal-menu .navbar-inner .navbar-nav>li.active+li:hover {
         border-left-color: transparent
     }
+
     .navbar.horizontal-menu .navbar-inner .navbar-nav>li>a {
         padding: 0 15px;
         line-height: 85px
     }
+
     .navbar.horizontal-menu .navbar-inner .navbar-nav>li>ul {
         position: absolute;
         min-width: 270px;
@@ -1512,6 +1571,7 @@ body {
         -moz-opacity: 0;
         opacity: 0
     }
+
     .navbar.horizontal-menu .navbar-inner .navbar-nav>li.hover>ul {
         visibility: visible;
         zoom: 1;
@@ -1520,6 +1580,7 @@ body {
         -moz-opacity: 1;
         opacity: 1
     }
+
     .navbar.horizontal-menu .navbar-inner .navbar-nav ul {
         position: relative;
         display: none;
@@ -1531,6 +1592,7 @@ body {
         background: #fff;
         z-index: 2
     }
+
     .navbar.horizontal-menu .navbar-inner .navbar-nav ul ul {
         display: block;
         height: 0;
@@ -1546,6 +1608,7 @@ body {
         -o-transition: opacity 350ms linear;
         transition: opacity 350ms linear
     }
+
     .navbar.horizontal-menu .navbar-inner .navbar-nav ul ul.is-visible {
         height: auto;
         visibility: visible;
@@ -1555,13 +1618,16 @@ body {
         -moz-opacity: 1;
         opacity: 1
     }
+
     .navbar.horizontal-menu .navbar-inner .navbar-nav ul>li:last-child>a:after {
         display: none
     }
+
     .navbar.horizontal-menu .navbar-inner .navbar-nav ul>li {
         line-height: 1;
         margin: 0
     }
+
     .navbar.horizontal-menu .navbar-inner .navbar-nav ul>li>a {
         position: relative;
         display: block;
@@ -1569,6 +1635,7 @@ body {
         padding: 15px 25px;
         color: #979898
     }
+
     .navbar.horizontal-menu .navbar-inner .navbar-nav ul>li>a:after {
         content: '';
         position: absolute;
@@ -1578,16 +1645,19 @@ body {
         background: #eee;
         height: 1px
     }
+
     .navbar.horizontal-menu .navbar-inner .navbar-nav ul>li.active>a {
         color: #313232;
         background: #fafafa;
         border-top: 1px solid #eee;
         margin-top: -2px
     }
+
     .navbar.horizontal-menu .navbar-inner .navbar-nav ul>li.active>a:after {
         left: 0;
         right: 0
     }
+
     .navbar.horizontal-menu .navbar-inner .navbar-nav ul>li.has-sub>a:before {
         content: '\f105';
         font-family: FontAwesome;
@@ -1603,6 +1673,7 @@ body {
         -ms-transform-origin: center center;
         transform-origin: center center
     }
+
     .navbar.horizontal-menu .navbar-inner .navbar-nav ul>li.has-sub:hover>a:before,
     .navbar.horizontal-menu .navbar-inner .navbar-nav ul>li.has-sub.expanded>a:before {
         -webkit-transform: rotate(90deg);
@@ -1611,25 +1682,30 @@ body {
         -ms-transform: rotate(90deg);
         transform: rotate(90deg)
     }
+
     .navbar.horizontal-menu .navbar-inner .navbar-nav ul>li ul {
         background: #f6f6f6;
         border-top: 1px solid #eee;
         border-bottom: 1px solid #eee;
         margin-top: -1px
     }
+
     .navbar.horizontal-menu .navbar-inner .navbar-nav ul>li ul ul {
         background: #f1f1f1;
         border-top-color: #e7e7e7;
         border-bottom-color: #e7e7e7
     }
+
     .navbar.horizontal-menu .navbar-inner .navbar-nav ul>li ul ul a:after {
         background-color: #e7e7e7
     }
+
     .navbar.horizontal-menu .navbar-inner .navbar-nav ul>li ul ul ul {
         background: #ececec;
         border-top-color: #e2e2e2;
         border-bottom-color: #e2e2e2
     }
+
     .navbar.horizontal-menu .navbar-inner .navbar-nav ul>li ul ul ul a:after {
         background-color: #e2e2e2
     }
@@ -1779,49 +1855,55 @@ body {
 }
 
 .navbar.horizontal-menu .navbar-inner>.nav>li .dropdown-menu.user-profile-menu {
-    right: 0!important
+    right: 0 !important
 }
 
 @media screen and (min-width:767px) and (max-width:992px) {
     .navbar.horizontal-menu .navbar-inner .navbar-brand {
         padding: 0 15px
     }
+
     .navbar.horizontal-menu .navbar-inner .navbar-nav>li {
         line-height: 84px
     }
+
     .navbar.horizontal-menu .navbar-inner .navbar-nav>li>a {
         padding: 0 10px;
         font-size: 12px
     }
+
     .navbar.horizontal-menu .navbar-inner .navbar-nav>li>a>.badge {
         display: none
     }
+
     .navbar.horizontal-menu .navbar-inner>.nav>li i {
         font-size: 13px
     }
+
     .navbar.horizontal-menu .navbar-inner>.nav>li>a.notification-icon {
         padding-left: 15px;
         padding-right: 15px
     }
+
     .navbar.horizontal-menu .navbar-inner>.nav>li.user-profile>a>span {
-        display: none!important
+        display: none !important
     }
 }
 
 .navbar.horizontal-menu.click-to-expand .has-sub:hover>a:before {
-    -webkit-transform: rotate(0deg)!important;
-    -moz-transform: rotate(0deg)!important;
-    -o-transform: rotate(0deg)!important;
-    -ms-transform: rotate(0deg)!important;
-    transform: rotate(0deg)!important
+    -webkit-transform: rotate(0deg) !important;
+    -moz-transform: rotate(0deg) !important;
+    -o-transform: rotate(0deg) !important;
+    -ms-transform: rotate(0deg) !important;
+    transform: rotate(0deg) !important
 }
 
 .navbar.horizontal-menu.click-to-expand .has-sub.expanded>a:before {
-    -webkit-transform: rotate(90deg)!important;
-    -moz-transform: rotate(90deg)!important;
-    -o-transform: rotate(90deg)!important;
-    -ms-transform: rotate(90deg)!important;
-    transform: rotate(90deg)!important
+    -webkit-transform: rotate(90deg) !important;
+    -moz-transform: rotate(90deg) !important;
+    -o-transform: rotate(90deg) !important;
+    -ms-transform: rotate(90deg) !important;
+    transform: rotate(90deg) !important
 }
 
 @media screen and (min-width:768px) {
@@ -1852,9 +1934,11 @@ body {
     .navbar.horizontal-menu.navbar-minimal .navbar-inner .navbar-brand {
         height: 55px
     }
+
     .navbar.horizontal-menu.navbar-minimal .navbar-inner .navbar-nav>li {
         line-height: 55px
     }
+
     .navbar.horizontal-menu.navbar-minimal .navbar-inner .navbar-nav>li>a {
         line-height: 55px
     }
@@ -1876,44 +1960,57 @@ body {
         color: #fff;
         height: auto
     }
+
     .chat-open .navbar.horizontal-menu {
         left: -340px
     }
+
     .navbar.horizontal-menu.navbar-fixed-top {
         position: relative
     }
+
     .navbar.horizontal-menu.navbar-fixed-top+.page-container {
         margin-top: 0
     }
+
     .navbar.horizontal-menu.navbar-fixed-top+.page-container>.sidebar-menu.fixed .sidebar-menu-inner {
         top: 0
     }
+
     .settings-pane-open .navbar.horizontal-menu.navbar-fixed-top {
         position: relative
     }
+
     .settings-pane-open .navbar.horizontal-menu.navbar-fixed-top+.page-container {
         margin-top: 0
     }
+
     .settings-pane-open .navbar.horizontal-menu.navbar-fixed-top+.page-container>.sidebar-menu.fixed .sidebar-menu-inner {
         top: 0
     }
+
     .navbar.horizontal-menu+.page-container>.sidebar-menu.fixed .sidebar-menu-inner {
         top: 85px
     }
+
     .navbar.horizontal-menu .navbar-inner {
         padding: 20px 0
     }
+
     .navbar.horizontal-menu .navbar-inner .navbar-brand {
         height: auto;
         padding-left: 20px
     }
+
     .navbar.horizontal-menu .navbar-inner .navbar-brand a[data-toggle=settings-pane] {
         display: none
     }
+
     .navbar.horizontal-menu .navbar-inner .navbar-mobile-clear {
         display: block;
         clear: both
     }
+
     .navbar.horizontal-menu .navbar-inner .navbar-nav {
         display: none;
         padding-left: 40px;
@@ -1923,6 +2020,7 @@ body {
         list-style: none;
         margin-bottom: 0
     }
+
     .navbar.horizontal-menu .navbar-inner .navbar-nav a {
         color: #979898;
         text-decoration: none;
@@ -1930,29 +2028,37 @@ body {
         padding: 13px 5px;
         border-bottom: 1px solid #313437
     }
+
     .navbar.horizontal-menu .navbar-inner .navbar-nav a>i {
         display: inline-block;
         margin-right: 10px
     }
+
     .navbar.horizontal-menu .navbar-inner .navbar-nav a>i+span {
         padding-right: 10px
     }
+
     .navbar.horizontal-menu .navbar-inner .navbar-nav a>span {
         display: inline-block
     }
+
     .navbar.horizontal-menu .navbar-inner .navbar-nav a>.label {
         margin-top: 1px
     }
+
     .navbar.horizontal-menu .navbar-inner .navbar-nav a>.badge {
         font-size: 75%;
         line-height: 1.2
     }
+
     .navbar.horizontal-menu .navbar-inner .navbar-nav a:hover {
         color: #fff
     }
+
     .navbar.horizontal-menu .navbar-inner .navbar-nav li.active>a {
         color: #fff
     }
+
     .navbar.horizontal-menu .navbar-inner .navbar-nav li.has-sub>a:before {
         position: relative;
         display: inline-block;
@@ -1971,6 +2077,7 @@ body {
         -o-transition: all 150ms ease-in-out;
         transition: all 150ms ease-in-out
     }
+
     .navbar.horizontal-menu .navbar-inner .navbar-nav li.has-sub.opened>a:before,
     .navbar.horizontal-menu .navbar-inner .navbar-nav li.has-sub.expanded>a:before {
         -webkit-transform: rotate(0deg);
@@ -1979,12 +2086,15 @@ body {
         -ms-transform: rotate(0deg);
         transform: rotate(0deg)
     }
+
     .navbar.horizontal-menu .navbar-inner .navbar-nav>li.opened>ul {
         display: block
     }
+
     .navbar.horizontal-menu .navbar-inner .navbar-nav>li.opened .opened>ul {
         display: block
     }
+
     .navbar.horizontal-menu .navbar-inner .navbar-nav ul {
         display: none;
         margin: 0;
@@ -1992,9 +2102,11 @@ body {
         overflow: hidden;
         list-style: none
     }
+
     .navbar.horizontal-menu .navbar-inner .navbar-nav ul li {
         position: relative
     }
+
     .navbar.horizontal-menu .navbar-inner .navbar-nav ul li.is-shown {
         left: 0;
         zoom: 1;
@@ -2007,66 +2119,77 @@ body {
         -o-transition: all 200ms ease-in-out;
         transition: all 200ms ease-in-out
     }
+
     .navbar.horizontal-menu .navbar-inner .navbar-nav ul li.is-shown+.is-shown {
         -webkit-transition-delay: 80ms;
         -moz-transition-delay: 80ms;
         -o-transition-delay: 80ms;
         transition-delay: 80ms
     }
+
     .navbar.horizontal-menu .navbar-inner .navbar-nav ul li.is-shown+.is-shown+.is-shown {
         -webkit-transition-delay: 120ms;
         -moz-transition-delay: 120ms;
         -o-transition-delay: 120ms;
         transition-delay: 120ms
     }
+
     .navbar.horizontal-menu .navbar-inner .navbar-nav ul li.is-shown+.is-shown+.is-shown+.is-shown {
         -webkit-transition-delay: 160ms;
         -moz-transition-delay: 160ms;
         -o-transition-delay: 160ms;
         transition-delay: 160ms
     }
+
     .navbar.horizontal-menu .navbar-inner .navbar-nav ul li.is-shown+.is-shown+.is-shown+.is-shown+.is-shown {
         -webkit-transition-delay: 200ms;
         -moz-transition-delay: 200ms;
         -o-transition-delay: 200ms;
         transition-delay: 200ms
     }
+
     .navbar.horizontal-menu .navbar-inner .navbar-nav ul li.is-shown+.is-shown+.is-shown+.is-shown+.is-shown+.is-shown {
         -webkit-transition-delay: 240ms;
         -moz-transition-delay: 240ms;
         -o-transition-delay: 240ms;
         transition-delay: 240ms
     }
+
     .navbar.horizontal-menu .navbar-inner .navbar-nav ul li.is-shown+.is-shown+.is-shown+.is-shown+.is-shown+.is-shown+.is-shown {
         -webkit-transition-delay: 280ms;
         -moz-transition-delay: 280ms;
         -o-transition-delay: 280ms;
         transition-delay: 280ms
     }
+
     .navbar.horizontal-menu .navbar-inner .navbar-nav ul li.is-shown+.is-shown+.is-shown+.is-shown+.is-shown+.is-shown+.is-shown+.is-shown {
         -webkit-transition-delay: 320ms;
         -moz-transition-delay: 320ms;
         -o-transition-delay: 320ms;
         transition-delay: 320ms
     }
+
     .navbar.horizontal-menu .navbar-inner .navbar-nav ul li.is-shown+.is-shown+.is-shown+.is-shown+.is-shown+.is-shown+.is-shown+.is-shown+.is-shown {
         -webkit-transition-delay: 360ms;
         -moz-transition-delay: 360ms;
         -o-transition-delay: 360ms;
         transition-delay: 360ms
     }
+
     .navbar.horizontal-menu .navbar-inner .navbar-nav ul li.is-shown+.is-shown+.is-shown+.is-shown+.is-shown+.is-shown+.is-shown+.is-shown+.is-shown+.is-shown {
         -webkit-transition-delay: 400ms;
         -moz-transition-delay: 400ms;
         -o-transition-delay: 400ms;
         transition-delay: 400ms
     }
+
     .navbar.horizontal-menu .navbar-inner .navbar-nav ul li.is-shown+.is-shown+.is-shown+.is-shown+.is-shown+.is-shown+.is-shown+.is-shown+.is-shown+.is-shown+.is-shown {
         -webkit-transition-delay: 440ms;
         -moz-transition-delay: 440ms;
         -o-transition-delay: 440ms;
         transition-delay: 440ms
     }
+
     .navbar.horizontal-menu .navbar-inner .navbar-nav ul li.hidden-item {
         visibility: hidden;
         zoom: 1;
@@ -2079,27 +2202,35 @@ body {
         -o-transition: all 250ms ease-in-out;
         transition: all 250ms ease-in-out
     }
+
     .navbar.horizontal-menu .navbar-inner .navbar-nav ul li a {
         padding-left: 35px
     }
+
     .navbar.horizontal-menu .navbar-inner .navbar-nav ul li ul li a {
         padding-left: 60px
     }
+
     .navbar.horizontal-menu .navbar-inner .navbar-nav ul li ul li ul li a {
         padding-left: 85px
     }
+
     .navbar.horizontal-menu .navbar-inner .navbar-nav ul li ul li ul li ul li a {
         padding-left: 110px
     }
+
     .navbar.horizontal-menu .navbar-inner .navbar-nav.mobile-is-visible {
         display: block
     }
+
     .navbar.horizontal-menu .navbar-inner>.nav {
         display: none
     }
+
     .navbar.horizontal-menu .navbar-inner>.nav>li {
         line-height: 65px
     }
+
     .navbar.horizontal-menu .navbar-inner>.nav.nav-userinfo {
         float: none;
         width: 100%;
@@ -2109,29 +2240,37 @@ body {
         top: 20px;
         text-align: right
     }
+
     .navbar.horizontal-menu .navbar-inner>.nav.nav-userinfo.mobile-is-visible {
         display: block
     }
+
     .navbar.horizontal-menu .navbar-inner>.nav.nav-userinfo>.xs-left {
         float: left
     }
+
     .navbar.horizontal-menu .navbar-inner>.nav.nav-userinfo>.xs-left.open>.dropdown-menu {
         left: 1px
     }
+
     .navbar.horizontal-menu .navbar-inner>.nav.nav-userinfo .notification-icon .badge {
         top: 50%
     }
+
     .navbar.horizontal-menu .navbar-inner>.nav.nav-userinfo .user-profile>a span {
         display: none
     }
+
     .navbar.horizontal-menu .navbar-inner>.nav.nav-userinfo .user-profile.open>a {
         background-color: #fafafa
     }
+
     .navbar.horizontal-menu .navbar-inner>.nav.navbar-mobile {
         display: block;
         float: right;
         padding-right: 20px
     }
+
     .navbar.horizontal-menu .navbar-inner>.nav.navbar-mobile a {
         position: relative;
         display: inline-block;
@@ -2139,17 +2278,20 @@ body {
         line-height: 1;
         margin-left: 20px
     }
+
     .navbar.horizontal-menu .navbar-inner>.nav.navbar-mobile a i {
         line-height: 1;
         font-size: 18px;
         position: relative;
         top: 1px
     }
+
     .navbar.horizontal-menu .navbar-inner>.nav.navbar-mobile a:hover,
     .navbar.horizontal-menu .navbar-inner>.nav.navbar-mobile a:active,
     .navbar.horizontal-menu .navbar-inner>.nav.navbar-mobile a:focus {
         color: #fff
     }
+
     .navbar.horizontal-menu .navbar-inner>.nav.navbar-mobile a .badge {
         position: absolute;
         right: -3px;
@@ -2263,7 +2405,7 @@ footer.main-footer.fixed {
     bottom: 0;
     margin-left: 0;
     margin-right: 0;
-    margin-top: 10px!important
+    margin-top: 10px !important
 }
 
 body.chat-open .user-info-navbar a[data-toggle=chat] {
@@ -2866,6 +3008,7 @@ body.chat-open .user-info-navbar a[data-toggle=chat] {
 }
 
 @media screen and (max-width:991px) {
+
     .user-info-navbar .user-info-menu>li .dropdown-menu.languages,
     .navbar.horizontal-menu .navbar-inner>.nav>li .dropdown-menu.languages {
         width: auto
@@ -3363,7 +3506,7 @@ body.chat-open #chat {
 #chat .chat-conversation .chat-textarea textarea {
     background: #fafafa;
     border: 0;
-    max-height: 100px!important;
+    max-height: 100px !important;
     padding-right: 35px;
     padding-top: 10px;
     height: 32px;
@@ -3417,14 +3560,17 @@ body.chat-open #chat {
 }
 
 @media (max-width:767px) {
+
     .chat-visible #chat,
     .chat-visible #chat.fixed {
         display: none
     }
+
     .chat-visible.toggle-click #chat,
     .chat-visible.toggle-click #chat.fixed {
         display: block
     }
+
     #chat,
     #chat.fixed {
         position: fixed;
@@ -3435,31 +3581,36 @@ body.chat-open #chat {
         bottom: 0;
         margin: 10px
     }
+
     #chat .chat-conversation,
     #chat.fixed .chat-conversation {
         position: fixed;
         width: auto;
         left: 0;
         right: 0;
-        top: 0!important;
+        top: 0 !important;
         bottom: 0;
         margin: 10px;
         overflow: auto
     }
+
     #chat .chat-conversation .conversation-body,
     #chat.fixed .chat-conversation .conversation-body {
         height: auto;
         max-height: 450px
     }
+
     #chat .chat-conversation::-webkit-scrollbar,
     #chat.fixed .chat-conversation::-webkit-scrollbar {
         width: 5px
     }
+
     #chat .chat-conversation::-webkit-scrollbar-track,
     #chat.fixed .chat-conversation::-webkit-scrollbar-track {
         width: 5px;
         background-color: #343a45
     }
+
     #chat .chat-conversation::-webkit-scrollbar-thumb,
     #chat.fixed .chat-conversation::-webkit-scrollbar-thumb {
         background-color: #4a5262
@@ -3490,7 +3641,7 @@ body.chat-open #chat {
 
 @media screen and (max-width:768px) {
     .footer-sticked-chat.mobile-is-visible .chat-conversations {
-        display: block!important
+        display: block !important
     }
 }
 
@@ -3911,31 +4062,38 @@ body.chat-open #chat {
     .page-container {
         display: block
     }
+
     .page-container .sidebar-menu,
     .page-container .main-content {
         display: block;
         width: 100%;
         height: auto
     }
+
     .page-container .sidebar-menu {
         position: relative
     }
+
     .page-container .sidebar-menu .sidebar-menu-inner {
         position: relative
     }
+
     .page-container .sidebar-menu .sidebar-menu-inner .logo-env,
     .page-container .sidebar-menu .sidebar-menu-inner .main-menu {
         padding-left: 20px;
         padding-right: 20px
     }
+
     .page-container .sidebar-menu .sidebar-menu-inner .logo-env {
         margin-bottom: 0;
         padding-top: 20px;
         padding-bottom: 20px
     }
+
     .page-container .sidebar-menu .sidebar-menu-inner .logo-env .mobile-menu-toggle {
         float: right
     }
+
     .page-container .sidebar-menu .sidebar-menu-inner .logo-env .mobile-menu-toggle a {
         position: relative;
         display: inline-block;
@@ -3943,17 +4101,20 @@ body.chat-open #chat {
         line-height: 1;
         margin-left: 20px
     }
+
     .page-container .sidebar-menu .sidebar-menu-inner .logo-env .mobile-menu-toggle a i {
         line-height: 1;
         font-size: 18px;
         position: relative;
         top: 1px
     }
+
     .page-container .sidebar-menu .sidebar-menu-inner .logo-env .mobile-menu-toggle a:hover,
     .page-container .sidebar-menu .sidebar-menu-inner .logo-env .mobile-menu-toggle a:active,
     .page-container .sidebar-menu .sidebar-menu-inner .logo-env .mobile-menu-toggle a:focus {
         color: #fff
     }
+
     .page-container .sidebar-menu .sidebar-menu-inner .logo-env .mobile-menu-toggle a .badge {
         position: absolute;
         right: -3px;
@@ -3962,41 +4123,52 @@ body.chat-open #chat {
         padding: 1px 2px;
         min-width: 14px
     }
+
     .page-container .sidebar-menu .sidebar-menu-inner .main-menu {
         display: none;
         margin-bottom: 0
     }
+
     .page-container .sidebar-menu .sidebar-menu-inner .main-menu.mobile-is-visible {
         display: block
     }
+
     .page-container .sidebar-menu .sidebar-menu-inner .main-menu.mobile-is-visible.both-menus-visible {
         margin-top: 0;
         padding-top: 0
     }
+
     .page-container .sidebar-menu .sidebar-menu-inner .main-menu>li:last-child>a {
         border-bottom: 0
     }
+
     .page-container .main-content .navbar.user-info-navbar {
         display: none
     }
+
     .page-container .main-content .navbar.user-info-navbar.mobile-is-visible {
         display: block
     }
+
     .page-container .main-content .navbar.user-info-navbar .user-info-menu>li {
-        min-height: 0!important
+        min-height: 0 !important
     }
+
     .page-container .main-content .navbar.user-info-navbar .user-info-menu>li>a,
     .page-container .main-content .navbar.user-info-navbar .user-info-menu>li>form {
         padding-top: 20px;
         padding-bottom: 20px
     }
+
     .page-container .main-content .navbar.user-info-navbar .user-info-menu>li.user-profile>a>span,
     .page-container .main-content .navbar.navbar.horizontal-menu .navbar-inner>.nav>li.user-profile>a>span {
         display: none
     }
+
     .page-container .main-content .navbar.user-info-navbar .user-info-menu>li a>.badge {
         top: 10px
     }
+
     .page-container .main-content .main-footer {
         position: relative;
         left: 0;
@@ -4004,20 +4176,24 @@ body.chat-open #chat {
         margin-left: -30px;
         margin-right: -30px
     }
+
     .page-container {
         position: relative
     }
+
     .page-container #chat {
         left: auto;
         margin: 0;
         width: 340px
     }
+
     .page-container #chat .chat-conversation {
         bottom: auto;
         position: absolute;
         left: 0;
         top: 0
     }
+
     .chat-open .page-container {
         left: -340px
     }
@@ -4584,7 +4760,7 @@ body.chat-open #chat {
 }
 
 .breadcrumb.auto-hidden li a.collapsed {
-    width: 45px!important;
+    width: 45px !important;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
@@ -4804,6 +4980,7 @@ body.chat-open #chat {
     .settings-pane .links-block.left-sep {
         padding-left: 40px
     }
+
     .settings-pane .links-block.left-sep:first-child {
         border-left: 0
     }
@@ -4866,7 +5043,7 @@ body.chat-open #chat {
 }
 
 .settings-pane-open .sidebar-menu .sidebar-menu-inner {
-    position: relative!important
+    position: relative !important
 }
 
 .settings-pane-open .sidebar-menu .sidebar-menu-inner .logo-env .settings-icon {
@@ -5230,7 +5407,7 @@ label.cbr-inline+.cbr-inline {
 
 .btn:active,
 .btn:focus {
-    outline: 0!important
+    outline: 0 !important
 }
 
 .btn:active,
@@ -6087,7 +6264,7 @@ label.cbr-inline+.cbr-inline {
 }
 
 .panel.expanded .accordion-toggle:before {
-    content: '–'!important
+    content: '–' !important
 }
 
 .tabs-vertical-env {
@@ -6829,7 +7006,7 @@ blockquote small {
 .text-center.table>thead>tr>th,
 .text-center.table>tbody>tr>th,
 .text-center.table>tfood>tr>th {
-    text-align: center!important
+    text-align: center !important
 }
 
 .middle-align.table>thead>tr>td,
@@ -7545,24 +7722,28 @@ nav.navbar.navbar-inverse .navbar-toggle i {
     .sidebar-menu {
         display: none
     }
+
     .main-content {
-        padding: 0!important
+        padding: 0 !important
     }
+
     .main-content .user-info-navbar,
     .main-content .page-title,
     .main-content footer.main-footer {
         display: none
     }
+
     .main-content>.panel {
         margin-bottom: 0
     }
+
     .main-content>.panel+.panel {
         margin-top: 30px
     }
 }
 
 .overflow-hidden {
-    overflow: hidden!important
+    overflow: hidden !important
 }
 
 .vertical-top>* {
@@ -7595,7 +7776,7 @@ address {
 }
 
 .inline {
-    display: inline-block!important
+    display: inline-block !important
 }
 
 .text-overflow {
@@ -7808,18 +7989,19 @@ address {
 
 .vspacer.v3 {
     height: 30px;
-    display: block!important
+    display: block !important
 }
 
 .vspacer.v4 {
     height: 10px;
-    display: block!important
+    display: block !important
 }
 
 @media screen and (max-width:768px) {
     .vspacer {
         display: none
     }
+
     .vspacer.v2 {
         display: block
     }
@@ -7849,30 +8031,30 @@ address {
 }
 
 .no-left-border {
-    border-left: 0!important
+    border-left: 0 !important
 }
 
 .no-right-border {
-    border-right: 0!important
+    border-right: 0 !important
 }
 
 .no-top-margin {
-    margin-top: 0!important
+    margin-top: 0 !important
 }
 
 .no-padding {
-    padding: 0!important
+    padding: 0 !important
 }
 
 .no-margin {
-    margin: 0!important
+    margin: 0 !important
 }
 
 .no-transition {
-    -webkit-transition: none!important;
-    -moz-transition: none!important;
-    -o-transition: none!important;
-    transition: none!important
+    -webkit-transition: none !important;
+    -moz-transition: none !important;
+    -o-transition: none !important;
+    transition: none !important
 }
 
 img.img-cirlce {
@@ -7975,7 +8157,7 @@ div.scrollable {
     width: 75%;
     color: #7d7f7f;
     font-family: 'Open Sans Condensed', Futura, AvenirNext, Avenir, sans-serif;
-	font-weight: bold;
+    font-weight: bold;
 }
 
 .icon-collection .fontawesome-icon-list .fa-hover .icon-str>span:hover {
@@ -8130,6 +8312,7 @@ lesshat-selector {
     0% {
         -webkit-transform: rotate(0deg)
     }
+
     100% {
         -webkit-transform: rotate(220deg)
     }
@@ -8139,6 +8322,7 @@ lesshat-selector {
     0% {
         -moz-transform: rotate(0deg)
     }
+
     100% {
         -moz-transform: rotate(220deg)
     }
@@ -8148,6 +8332,7 @@ lesshat-selector {
     0% {
         -o-transform: rotate(0deg)
     }
+
     100% {
         -o-transform: rotate(220deg)
     }
@@ -8160,6 +8345,7 @@ lesshat-selector {
         -ms-transform: rotate(0deg);
         transform: rotate(0deg)
     }
+
     100% {
         -webkit-transform: rotate(220deg);
         -moz-transform: rotate(220deg);
@@ -8177,9 +8363,11 @@ lesshat-selector {
         box-shadow: inset #555 0 0 0 8px;
         -webkit-transform: rotate(-140deg)
     }
+
     50% {
         box-shadow: inset #555 0 0 0 2px
     }
+
     100% {
         box-shadow: inset #555 0 0 0 8px;
         -webkit-transform: rotate(140deg)
@@ -8191,9 +8379,11 @@ lesshat-selector {
         box-shadow: inset #555 0 0 0 8px;
         -moz-transform: rotate(-140deg)
     }
+
     50% {
         box-shadow: inset #555 0 0 0 2px
     }
+
     100% {
         box-shadow: inset #555 0 0 0 8px;
         -moz-transform: rotate(140deg)
@@ -8205,9 +8395,11 @@ lesshat-selector {
         box-shadow: inset #555 0 0 0 8px;
         -o-transform: rotate(-140deg)
     }
+
     50% {
         box-shadow: inset #555 0 0 0 2px
     }
+
     100% {
         box-shadow: inset #555 0 0 0 8px;
         -o-transform: rotate(140deg)
@@ -8222,9 +8414,11 @@ lesshat-selector {
         -ms-transform: rotate(-140deg);
         transform: rotate(-140deg)
     }
+
     50% {
         box-shadow: inset #555 0 0 0 2px
     }
+
     100% {
         box-shadow: inset #555 0 0 0 8px;
         -webkit-transform: rotate(140deg);
@@ -8252,9 +8446,11 @@ lesshat-selector {
         box-shadow: inset #fff 0 0 0 17px;
         transform: rotate(-140deg)
     }
+
     50% {
         box-shadow: inset #fff 0 0 0 2px
     }
+
     100% {
         box-shadow: inset #fff 0 0 0 17px;
         transform: rotate(140deg)
@@ -8284,6 +8480,7 @@ lesshat-selector {
     0% {
         -webkit-transform: rotate(0deg)
     }
+
     100% {
         -webkit-transform: rotate(220deg)
     }
@@ -8293,6 +8490,7 @@ lesshat-selector {
     0% {
         -moz-transform: rotate(0deg)
     }
+
     100% {
         -moz-transform: rotate(220deg)
     }
@@ -8302,6 +8500,7 @@ lesshat-selector {
     0% {
         -o-transform: rotate(0deg)
     }
+
     100% {
         -o-transform: rotate(220deg)
     }
@@ -8314,6 +8513,7 @@ lesshat-selector {
         -ms-transform: rotate(0deg);
         transform: rotate(0deg)
     }
+
     100% {
         -webkit-transform: rotate(220deg);
         -moz-transform: rotate(220deg);
@@ -8331,9 +8531,11 @@ lesshat-selector {
         box-shadow: inset #fff 0 0 0 8px;
         -webkit-transform: rotate(-140deg)
     }
+
     50% {
         box-shadow: inset #fff 0 0 0 2px
     }
+
     100% {
         box-shadow: inset #fff 0 0 0 8px;
         -webkit-transform: rotate(140deg)
@@ -8345,9 +8547,11 @@ lesshat-selector {
         box-shadow: inset #fff 0 0 0 8px;
         -moz-transform: rotate(-140deg)
     }
+
     50% {
         box-shadow: inset #fff 0 0 0 2px
     }
+
     100% {
         box-shadow: inset #fff 0 0 0 8px;
         -moz-transform: rotate(140deg)
@@ -8359,9 +8563,11 @@ lesshat-selector {
         box-shadow: inset #fff 0 0 0 8px;
         -o-transform: rotate(-140deg)
     }
+
     50% {
         box-shadow: inset #fff 0 0 0 2px
     }
+
     100% {
         box-shadow: inset #fff 0 0 0 8px;
         -o-transform: rotate(140deg)
@@ -8376,9 +8582,11 @@ lesshat-selector {
         -ms-transform: rotate(-140deg);
         transform: rotate(-140deg)
     }
+
     50% {
         box-shadow: inset #fff 0 0 0 2px
     }
+
     100% {
         box-shadow: inset #fff 0 0 0 8px;
         -webkit-transform: rotate(140deg);
@@ -8406,9 +8614,11 @@ lesshat-selector {
         box-shadow: inset #fff 0 0 0 17px;
         transform: rotate(-140deg)
     }
+
     50% {
         box-shadow: inset #fff 0 0 0 2px
     }
+
     100% {
         box-shadow: inset #fff 0 0 0 17px;
         transform: rotate(140deg)
@@ -8451,7 +8661,7 @@ lesshat-selector {
 }
 
 .tocify.full-width {
-    width: 100%!important
+    width: 100% !important
 }
 
 img.img-corona {
@@ -8525,6 +8735,7 @@ img.img-corona {
     .highlights .entry-img {
         width: 21%
     }
+
     .highlights .entry-description {
         width: 79%
     }
@@ -8534,26 +8745,31 @@ img.img-corona {
     .highlights .entry-img {
         width: 35%
     }
+
     .highlights .entry-description {
         width: 65%
     }
 }
 
 @media screen and (max-width:768px) {
+
     .highlights .entry-img,
     .highlights .entry-description {
         float: none;
         width: 100%;
         text-align: center
     }
+
     .highlights .entry-img {
         padding-bottom: 20px;
         padding-top: 20px;
         padding-right: 0
     }
+
     .highlights .entry-img img {
         display: inline-block
     }
+
     .highlights .entry-description p {
         text-align: left
     }
@@ -9032,7 +9248,7 @@ pre {
 
 .page-body .jumbotron {
     padding: 0;
-    padding-top: 0!important;
+    padding-top: 0 !important;
     padding-bottom: 48px;
     margin-bottom: 20px
 }
@@ -9056,15 +9272,15 @@ pre {
     }
 }
 
-p.overflowKeyword{
+p.overflowKeyword {
     border-radius: 20px;
     text-align: center;
     background: #c4c4c49e;
-    float:right;
+    float: right;
     font-family: "Andale Mono";
-    color:#000;
-    width:40px;
-    height:20px;
+    color: #000;
+    width: 40px;
+    height: 20px;
     margin-top: 6px;
-    margin-left:5px;
+    margin-left: 5px;
 }
